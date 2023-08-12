@@ -36,6 +36,32 @@ The Social Media Analyzer application has achieved the following functionalities
 - ```PostDatabaseTest```: Utilizes JUnit4 to create test cases for methods in PostDatabase class.
 
 ## Running From Comment Line
-```
 
+# Important: Please set file path for posts.csv in PostDabase.java before running!!!
+
+1) Go to SocialMediaAnalyzer\src\analyzer directory. Type:
+```
+cd SocialMediaAnalyzer\src\analyzer
+```
+2) Compile all .java file. Type:
+```
+javac *.java
+```
+3) Go back to SocialMediaAnalyzer directory (the main folder). Type:
+```
+cd ../..
+```
+You should be now in SocialMediaAnalyzer.
+
+4) Run Main.java file. Type:
+```
+java -cp ./src analyzer.Main
+```
+5) The Social Media Analyzer application is now running.
+
+Here's an example on Windows Command Prompt
+```
+SocialMediaAnalyzer\src\analyzer>javac *.java
+SocialMediaAnalyzer\src\analyzer> cd ../..
+SocialMediaAnalyzer>java -cp ./src analyzer.Main
 ```
