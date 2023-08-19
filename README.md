@@ -2,6 +2,7 @@
 
 ## Summary
 The Social Media Analyzer application has achieved the following functionalities:
+- Reading posts.csv file to initialize post into database
 - Displaying menu on console
 - Reading user input to run the respective functionalities displayed on menu
 - Adding new post into the database along with its details include id, content, author, likes, shares and date-time
@@ -25,7 +26,7 @@ The Social Media Analyzer application has achieved the following functionalities
 
 ## Class Design
 - ```Main```: Entry point for the Social Media Analyzer application.
-- ```SocialMediaAnalyzer```: Main application of the Social Media Analyzer, and includes functionalities to add, delete, retrieve posts, retrieve the top N posts with most likes or shares, and quit.
+- ```SocialMediaAnalyzer```: Main application of the Social Media Analyzer, and includes functionalities to add, delete, retrieve posts, retrieve the top N posts with most likes or shares, and quit. Post initiliazation from posts.csv is automatically run here.
 - ```PostDatabase```: Maintains the postDatabase ArrayList and provides operations including create, remove, get, search and sort posts and printing Top N Likes/Shares Post in the console.
 - ```Post```: Serves as a Post object with properties include id, content, author, likes, shares and date-time with getter methods to access the private instance variables.
 - ```ExistedPostIDException```: User-defined exception for invalid post ID integer.
