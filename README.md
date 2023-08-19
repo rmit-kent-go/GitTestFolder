@@ -1,5 +1,7 @@
 # Social Media Analyzer
 
+## Demo Video: https://rmiteduau-my.sharepoint.com/:v:/r/personal/s3955624_student_rmit_edu_au/Documents/Recording-20230819_164953.webm?csf=1&web=1&e=ph73JS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
+
 ## Summary
 The Social Media Analyzer application has achieved the following functionalities:
 - Automatically read posts.csv file to initialize post into database
