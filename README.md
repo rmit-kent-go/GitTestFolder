@@ -2,7 +2,7 @@
 
 ## Summary
 The Social Media Analyzer application has achieved the following functionalities:
-- Reading posts.csv file to initialize post into database
+- Automatically read posts.csv file to initialize post into database
 - Displaying menu on console
 - Reading user input to run the respective functionalities displayed on menu
 - Adding new post into the database along with its details include id, content, author, likes, shares and date-time
